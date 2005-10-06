@@ -10,7 +10,7 @@ my %METHOD_CACHE;
 
 =head1 NAME
 
-Data::XML::Variant::Build - The class which actually creates the XML.
+Data::XML::Variant::Build - Data::XML::Variant "build" class.
 
 =head1 VERSION
 
@@ -200,7 +200,7 @@ sub _croak {
 
 ##############################################################################
 
-=head3 Closing
+=head2 Closing
 
   my $closing = $xml->Closing;
   $xml->Closing(' /');
@@ -262,7 +262,7 @@ sub Methods {
 
 ##############################################################################
 
-=head3 Remove
+=head2 Remove
 
   $xml->Remove('foo'); # remove the foo tag methods
   $xml->Remove;        # remove all tag methods
@@ -308,7 +308,7 @@ sub Remove {
 
 ##############################################################################
 
-=head3 Cdata
+=head2 Cdata
 
   my $Cdata = $xml->Cdata($string);
 
@@ -325,7 +325,7 @@ sub Cdata {
 
 ##############################################################################
 
-=head3 Raw
+=head2 Raw
 
   print $xml->some_tag($xml->Raw($string));
 
@@ -387,7 +387,7 @@ sub PI {
 
 ##############################################################################
 
-=head3 Comment
+=head2 Comment
 
   $xml->Comment('this is a > comment');
   # <!-- this is a &gt; comment -->
@@ -527,8 +527,6 @@ C<bug-data-xml-variant@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Data-XML-Variant>.
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
-
-=head1 ACKNOWLEDGEMENTS
 
 =head1 COPYRIGHT & LICENSE
 

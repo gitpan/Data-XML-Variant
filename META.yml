@@ -1,6 +1,6 @@
 ---
 name: Data-XML-Variant
-version: 0.01
+version: 0.02
 author:
   - Curtis "Ovid" Poe <ovid@cpan.org>
 abstract: Output XML 'variants'
@@ -15,7 +15,7 @@ requires:
 provides:
   Data::XML::Variant:
     file: lib/Data/XML/Variant.pm
-    version: 0.01
+    version: 0.02
   Data::XML::Variant::Build:
     file: lib/Data/XML/Variant/Build.pm
     version: 0.01

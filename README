@@ -1,15 +1,10 @@
 Data-XML-Variant
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it get an idea of the modules uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+Write XML "variants".  Regrettably, we often find ourselves in the position of
+having to write malformed XML either due to third-party applications or legacy
+code.  This module allows one to write XML more loosely than "official" XML
+modules.  It is recommended that you try and figure out if well-formed XML can
+be used instead of this module.
 
 INSTALLATION
 
